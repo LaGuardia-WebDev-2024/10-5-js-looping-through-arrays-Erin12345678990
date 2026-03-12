@@ -12,7 +12,14 @@ setup = function() {
     text("⸙", 420-i, 390);
   }  
 
-  
+  var favAni = ["Cats","Foxes","Seals"];
+var aniNum = 0 
+
+while(aniNum < favAni.length){
+text(favAni[aniNum], 10, 50 + aniNum*30);
+aniNum ++;
+}
+
 };
 
 
